@@ -1,2 +1,3 @@
 # discord-ticket-system
- Discord Ticket bot using discord.js & modals
+
+README will be created soon!
