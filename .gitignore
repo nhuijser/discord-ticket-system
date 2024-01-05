@@ -1,0 +1,6 @@
+node_modules
+database/database.db
+database/database.db-wal
+database/database.db-shm
+.DS_Store
+config/config

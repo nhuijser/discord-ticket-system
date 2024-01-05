@@ -1,0 +1,28 @@
+{
+  "token": "-",
+
+  "bot": {
+    "guildId": "-"
+  },
+
+  "status": {
+    "text": "with tickets"
+  },
+
+  "guild": {
+    "id": "-",
+    "category": "-"
+  },
+
+  "tickets": {
+    "max": 1,
+    "logs": "1192822064130830376",
+    "embed": {
+      "title": "🎟️ Support Tickets",
+      "description": "Click on the button below to create a new ticket.",
+      "open": {
+        "description": "Thank you for creating a support ticket!"
+      }
+    }
+  }
+}
