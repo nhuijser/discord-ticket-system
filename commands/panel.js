@@ -6,7 +6,12 @@ const {
   ModalBuilder,
   TextInputBuilder,
 } = require("@discordjs/builders");
-const { ButtonStyle, TextInputStyle, Colors } = require("discord.js");
+const {
+  ButtonStyle,
+  TextInputStyle,
+  Colors,
+  PermissionFlagsBits,
+} = require("discord.js");
 const config = require("../config/config.json");
 module.exports = {
   data: new SlashCommandBuilder()
@@ -23,7 +28,9 @@ module.exports = {
         .setName("customize")
         .setDescription("Whether you want to customize the panel or not")
         .setRequired(false)
-    ),
+    )
+    .setDefaultMemberPermissions(PermissionFlagsBits.ADMINISTRATOR)
+    .setDMPermission(false),
 
   async execute(interaction) {
     const channel =
